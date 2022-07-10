@@ -1,0 +1,14 @@
+.title{
+  text-align: center;
+  /* color: white; */
+  background-color: white;
+  border: 3px solid gray;
+  padding: 5px;
+  margin: 60px;
+  justify-content: center;
+}
+.section{
+  justify-content: center;
+  margin-right: 5%;
+  margin-left: 5%;
+}
