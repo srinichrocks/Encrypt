@@ -1,4 +1,5 @@
 import styles from '../styles/footer.module.css'
+import Link from 'next/link'
 export default function Footer() {
     return(
         <section id = "footer" className={styles.grad}>
@@ -22,13 +23,16 @@ export default function Footer() {
 
         <ul className="list-unstyled text-white">
           <li>
-            <a href="/translate">Translate</a>
+            <Link href = "/translate">
+              <a>Translate</a>
+              </Link>
+            {/* <a href="/translate">Translate</a> */}
           </li>
           <li>
-            <a href="/textAnalysis">Text Analysis</a>
+            <Link href="/textAnalysis"><a>Text Analysis</a></Link>
           </li>
           <li>
-            <a href="/jokes">Jokes</a>
+            <Link href="/jokes"><a>Jokes</a></Link>
           </li>
         </ul>
 
