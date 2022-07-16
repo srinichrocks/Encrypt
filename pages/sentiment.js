@@ -3,7 +3,7 @@ import axios from "axios";
 import { useState } from "react";
 import Footer from "./footer";
 
-export default function sentiment(){
+export default function Sentiment(){
     const [message, setMessage] = useState("")
     const [result, setResult] = useState("")
     async function getSentiment(event){

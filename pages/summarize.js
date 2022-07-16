@@ -3,7 +3,7 @@ import axios from "axios";
 import { useState } from "react";
 import Footer from "./footer";
 
-export default function summarize(){
+export default function Summarize(){
     const [message, setMessage] = useState("")
     const [result, setResult] = useState("")
     async function getSummary(event){

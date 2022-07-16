@@ -3,7 +3,7 @@ import axios from "axios";
 import { useState } from "react";
 import Footer from "./footer";
 
-export default function ner(){
+export default function Ner(){
     const [message, setMessage] = useState("")
     const [result, setResult] = useState("")
     async function getNer(event){
