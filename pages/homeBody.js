@@ -97,7 +97,7 @@ export default function HomeBody() {
                   <div class="card-body">
                     <h4 class="card-title">Jokes</h4>
                     {/* <h6 className='card-subtitle text-primary'>Java, JavaFX</h6> */}
-                    <p className='card-text text-dark'>Generate random Chuck Norris jokes</p>
+                    <p className='card-text text-dark'>Generate random funny jokes</p>
                   </div>
                 </div>
               </motion.div>
