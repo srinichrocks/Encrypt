@@ -1,11 +1,13 @@
-import Header from './Header.js'
-import Body from './Body.js'
+import Footer from './footer.js'
+import HomeBody from './homeBody.js'
+import NavBar from './navbar.js'
 
 export default function Home() {
   return (
     <div>
-      <Header/>
-      <Body/>
+      <NavBar/>
+      <HomeBody/>
+      <Footer/>
       
     </div>
   )
