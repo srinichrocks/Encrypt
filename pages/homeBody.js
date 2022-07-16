@@ -12,6 +12,7 @@ export default function HomeBody() {
             <p className='h1 mt-2'>Welcome</p>
             <hr/>
             <q className='h4 text-center'>Natural language processing is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data.</q>
+            <hr/>
             <div>
                 <div className='row mt-4 mx-4 text-center'>
        <div className='col-md-4 mt-2'>
