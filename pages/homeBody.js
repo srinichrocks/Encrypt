@@ -11,8 +11,9 @@ export default function HomeBody() {
         <div className='justify-content-center text-center'>
             <p className='h1 mt-2'>Welcome</p>
             <hr/>
+            <q className='h4 text-center'>Natural language processing is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data.</q>
             <div>
-                <div className='row mt-4 mx-2 text-center'>
+                <div className='row mt-4 mx-4 text-center'>
        <div className='col-md-4 mt-2'>
       <Link href = "/translate">
               <motion.div className="card text-center shadow rounded h-100" whileHover={{
@@ -67,7 +68,7 @@ export default function HomeBody() {
                     <h4 className="card-title">Text Analysis</h4>
                     {/* <h6 className='card-subtitle text-primary'>Java</h6> */}
                     <section className='card-text text-dark'>
-                    <p>Supports text summarization, sentiment analysis, ner and language detection</p>
+                    <p>Supports Text Summarization, Sentiment Analysis, Named-entity Recognition and Language Detection</p>
                   </section>
                   </div>
                 </div>

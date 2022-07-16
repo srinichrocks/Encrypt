@@ -4,7 +4,7 @@ export default function NavBar() {
     return(
         <section className={styles.grad}>
         <div className="sticky-top">
-            <nav className="navbar navbar-expand-lg navbar-dark py-3">
+            <nav className="navbar navbar-expand-lg navbar-dark py-4">
                 <Link href="/"><a className="navbar-brand">NLP Analysis</a></Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
