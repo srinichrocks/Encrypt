@@ -36,8 +36,7 @@ export default function TextAnalysis() {
                 <Image className="card-img-top" src={summary} alt="Card image cap" width={200} height = {200}/>
                   <div className="card-body">
                     <h4 className="card-title">Text Summarization</h4>
-                    <h6 className='card-subtitle text-primary'>Java</h6>
-                    <p className="card-text">Automatic summarization is the process of shortening a set of data computationally, to create a subset that represents the most important or relevant information within the original content </p>
+                    <p className="card-text">"Automatic summarization is the process of shortening a set of data computationally, to create a subset that represents the most important or relevant information within the original content"</p>
                   </div>
                 </div>
               </motion.div>
@@ -64,7 +63,7 @@ export default function TextAnalysis() {
                 <Image className="card-img-top" src={sentiment} alt="Card image cap" width={200} height = {200}/>
                   <div className="card-body">
                     <h4 className="card-title">Sentiment Analysis</h4>
-                    <p className="card-text">Sentiment analysis is the use of natural language processing, text analysis, computational linguistics, and biometrics to systematically identify, extract, quantify, and study affective states and subjective information</p>
+                    <p className="card-text">"Sentiment analysis is the use of natural language processing, text analysis, computational linguistics, and biometrics to systematically identify, extract, quantify, and study affective states and subjective information"</p>
                   </div>
                 </div>
               </motion.div>
@@ -90,8 +89,8 @@ export default function TextAnalysis() {
                 <div className="card-content">
                 <Image className="card-img-top" src={ner} alt="Card image cap" width={200} height = {200}/>
                   <div className="card-body">
-                    <h4 className="card-title">Named Entity Recognition</h4>
-                    <p className="card-text">Named-entity recognition is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.</p>
+                    <h4 className="card-title">Named-entity Recognition</h4>
+                    <p className="card-text">"Named-entity recognition is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc."</p>
                   </div>
                 </div>
               </motion.div>
@@ -118,7 +117,7 @@ export default function TextAnalysis() {
                 <Image className="card-img-top" src={detect} alt="Card image cap" width={200} height = {200}/>
                   <div className="card-body">
                     <h4 className="card-title">Language Detection</h4>
-                    <p className="card-text">Language detection is a technique which identifies the language of a text and the parts of that text in which the language changes, all the way down to the word level</p>
+                    <p className="card-text">"Language detection is a technique which identifies the language of a text and the parts of that text in which the language changes, all the way down to the word level"</p>
                   </div>
                 </div>
               </motion.div>

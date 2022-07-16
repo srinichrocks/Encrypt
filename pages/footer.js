@@ -22,13 +22,13 @@ export default function Footer() {
 
         <ul className="list-unstyled text-white">
           <li>
-            <a href="/projects">Projects</a>
+            <a href="/translate">Translate</a>
           </li>
           <li>
-            <a href="/experience">Experience</a>
+            <a href="/textAnalysis">Text Analysis</a>
           </li>
           <li>
-            <a href="/contact-me">Contact Me</a>
+            <a href="/jokes">Jokes</a>
           </li>
         </ul>
 
@@ -39,13 +39,13 @@ export default function Footer() {
 
         <ul className="list-unstyled text-white">
           <li>
-            <a href="https://www.linkedin.com/in/srinidhi-raghavendran-a94834164/" target="_blank">Linkedin</a>
+            <a href="https://www.linkedin.com/in/srinidhi-raghavendran-a94834164/" target="_blank" rel="noreferrer">Linkedin</a>
           </li>
           <li>
-            <a href="https://github.com/srinichrocks" target="_blank">Github</a>
+            <a href="https://github.com/srinichrocks" target="_blank" rel="noreferrer">Github</a>
           </li>
           <li>
-            <a href="https://medium.com/@sraghavendran17" target="_blank">Medium</a>
+            <a href="https://medium.com/@sraghavendran17" target="_blank" rel="noreferrer">Medium</a>
           </li>
         </ul>
 
