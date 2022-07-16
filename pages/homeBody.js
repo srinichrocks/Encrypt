@@ -4,15 +4,15 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import analysis from '../public/analysis.png'
 import laugh from '../public/laugh.jpeg'
-import styles from '../styles/homeBody.module.css'
+// import styles from '../styles/homeBody.module.css'
 
 export default function HomeBody() {
     return (
-        <div className='justify-content-center text-center container-fluid'>
+        <div className='justify-content-center text-center'>
             <p className='h1 mt-2'>Welcome</p>
             <hr/>
             <div>
-                <div className='row mt-4 text-center'>
+                <div className='row mt-4 mx-2 text-center'>
        <div className='col-sm-4'>
       <Link href = "/translate">
               <motion.div className="card text-center shadow rounded h-100" whileHover={{
@@ -35,7 +35,6 @@ export default function HomeBody() {
                 <Image className = "card-image-top mt-2" src = {translate} width={200} height = {200} alt = "translate"/>
                   <div className="card-body">
                     <h4 className="card-title">Translate</h4>
-                    {/* <h6 className='card-subtitle text-primary'>Java</h6> */}
                     <p className='card-text text-dark'>
                         Translate text from one language to another
                     </p>
@@ -46,7 +45,7 @@ export default function HomeBody() {
        </div>
        <div className='col-sm-4'>
               <Link href = "/textAnalysis">
-              <motion.div className="card text-center shadow rounded h-100" whileHover={{
+              <motion.div className="card text-center shadow rounded h-100 mx-2" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
                 rotate: [0,10,-10,0,],
@@ -106,7 +105,7 @@ export default function HomeBody() {
      </div>
 
             </div>
-            <center className = "mt-4">
+            {/* <center className = "mt-4">
             <div className={styles.surround}>
               <div className={styles.base}>
               <div className={styles.holder}></div>
@@ -118,7 +117,7 @@ export default function HomeBody() {
               <div className={styles.shadow}></div>
               </div>  
             </div>
-            </center>
+            </center> */}
       </div>
     )
 }
