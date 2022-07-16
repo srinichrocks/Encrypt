@@ -15,7 +15,7 @@ export default function HomeBody() {
                 <div className='row mt-4 text-center'>
        <div className='col-sm-4'>
       <Link href = "/translate">
-              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+              <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
                 rotate: [0,10,-10,0,],
@@ -31,10 +31,10 @@ export default function HomeBody() {
                   duration: 1
                 }
               }}>
-                <div class="card-content">
+                <div className="card-content">
                 <Image className = "card-image-top mt-2" src = {translate} width={200} height = {200} alt = "translate"/>
-                  <div class="card-body">
-                    <h4 class="card-title">Translate</h4>
+                  <div className="card-body">
+                    <h4 className="card-title">Translate</h4>
                     {/* <h6 className='card-subtitle text-primary'>Java</h6> */}
                     <p className='card-text text-dark'>
                         Translate text from one language to another
@@ -46,7 +46,7 @@ export default function HomeBody() {
        </div>
        <div className='col-sm-4'>
               <Link href = "/textAnalysis">
-              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+              <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
                 rotate: [0,10,-10,0,],
@@ -61,11 +61,11 @@ export default function HomeBody() {
                 transition: {
                   duration: 1
                 }}}>
-                <div class="card-content">
-                <Image class="card-img-top mt-2" src={analysis} alt="text analysis" width={200} height = {200}/>
+                <div className="card-content">
+                <Image className="card-img-top mt-2" src={analysis} alt="text analysis" width={200} height = {200}/>
 
-                  <div class="card-body">
-                    <h4 class="card-title">Text Analysis</h4>
+                  <div className="card-body">
+                    <h4 className="card-title">Text Analysis</h4>
                     {/* <h6 className='card-subtitle text-primary'>Java</h6> */}
                     <section className='card-text text-dark'>
                     <p>Supports text summarization, sentiment analysis, ner and language detection</p>
@@ -77,7 +77,7 @@ export default function HomeBody() {
        </div>
        <div className='col-sm-4'>
        <Link href = "/jokes">
-              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+              <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
                 rotate: [0,10,-10,0,],
@@ -92,10 +92,10 @@ export default function HomeBody() {
                 transition: {
                   duration: 1
                 }}}>
-                <div class="card-content">
+                <div className="card-content">
                 <Image className = "card-image-top mt-2" src = {laugh} width={200} height = {200} alt = "jokes"/>
-                  <div class="card-body">
-                    <h4 class="card-title">Jokes</h4>
+                  <div className="card-body">
+                    <h4 className="card-title">Jokes</h4>
                     {/* <h6 className='card-subtitle text-primary'>Java, JavaFX</h6> */}
                     <p className='card-text text-dark'>Generate random funny jokes</p>
                   </div>
