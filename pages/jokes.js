@@ -4,7 +4,7 @@ import Footer from "./footer";
 import axios from "axios";
 
 
-export default function dadJokes() {
+export default function Jokes() {
     const [joke, setJoke] = useState("");
     const [delivery, setDelivery] = useState("");
 
