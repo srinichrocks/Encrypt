@@ -13,7 +13,7 @@ export default function HomeBody() {
             <hr/>
             <div>
                 <div className='row mt-4 mx-2 text-center'>
-       <div className='col-sm-4'>
+       <div className='col-md-4 mt-2'>
       <Link href = "/translate">
               <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
@@ -43,7 +43,7 @@ export default function HomeBody() {
               </motion.div>
               </Link>
        </div>
-       <div className='col-sm-4'>
+       <div className='col-md-4 mt-2'>
               <Link href = "/textAnalysis">
               <motion.div className="card text-center shadow rounded h-100 mx-2" whileHover={{
                 scale: [1,1.1,1.05],
@@ -74,7 +74,7 @@ export default function HomeBody() {
               </motion.div>
               </Link>
        </div>
-       <div className='col-sm-4'>
+       <div className='col-md-4 mt-2'>
        <Link href = "/jokes">
               <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],

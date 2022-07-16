@@ -15,7 +15,7 @@ export default function TextAnalysis() {
         <h1 className='text-center mt-2'>Text Analysis</h1>
         <hr/>
         <div className="row mt-3 mx-2 container-fluid">
-            <div className="col-md-3"> 
+            <div className="col-md-3 mt-2"> 
             <Link target = "_blank" href="/summarize" rel="noreferrer">
               <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
@@ -42,7 +42,7 @@ export default function TextAnalysis() {
               </motion.div>
               </Link>
             </div>
-            <div className="col-md-3"> 
+            <div className="col-md-3 mt-2"> 
             <Link target = "_blank" href="/sentiment" rel="noreferrer">
               <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
@@ -69,7 +69,7 @@ export default function TextAnalysis() {
               </motion.div>
               </Link>
             </div>
-            <div className="col-md-3"> 
+            <div className="col-md-3 mt-2"> 
             <Link target = "_blank" href="/ner" rel="noreferrer">
               <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
@@ -96,7 +96,7 @@ export default function TextAnalysis() {
               </motion.div>
               </Link>
             </div>
-            <div className="col-md-3"> 
+            <div className="col-md-3 mt-2"> 
             <Link target = "_blank" href="/detection" rel="noreferrer">
               <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
