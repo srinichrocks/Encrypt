@@ -24,8 +24,11 @@ export default function Summarize(){
             };
         
             await axios.request(options).then(function (response) {
-                setResult(response.data.summary)
-                console.log(response.data);
+                if (response.data.summary === "") {
+                    setResult("Message entered is too small for comprehensive summary to be generated")
+                } else {
+                    setResult(response.data.summary)
+                }
             }).catch(function (error) {
                 console.error(error);
             });
@@ -48,7 +51,8 @@ export default function Summarize(){
                 <label className="h3">Summary</label>
                 <textarea readOnly type = "Output" className = "form-control rounder-0" rows = "10" value = {result}/>
             </div>
-            </div>        
+            </div>
+            <p className="text-danger text-center mt-3">The summary generated is 10% of original content size so please input a message with an appropriate size</p>        
             <Footer/>
         </div>
     )
